@@ -1,0 +1,49 @@
+.container-fluid-wrap {
+    background: grey;
+    opacity: 0.5;
+    height: 70px;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0 10% 0 10%;
+}
+
+a span {
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#view-details {
+    color: white;
+}
+
+nav#breadcrumb {
+    margin: 5%;
+}
+
+#home-text {
+    margin: 2% 13% 0 13%;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#welcome-header {
+    color: black;
+}
+
+#caption {
+    float: right;
+}
+
+li p{
+    color: gray;
+}
+
+.card-title {
+    font-weight: bolder;
+    font-size: 15px;
+}

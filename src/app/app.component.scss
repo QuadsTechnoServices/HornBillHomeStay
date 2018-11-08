@@ -1,0 +1,121 @@
+.navbar {
+    background-color: black;
+    opacity: 0.7;
+    height: 70px;
+    position: relative;
+    z-index: 1000;
+}
+
+.container-fluid-wrap {
+    background: grey;
+    opacity: 0.5;
+    margin: 0;
+}
+
+#container-fluid-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin: 1%;
+}
+
+@media only screen and (max-width: 991px) {
+    #navbarNav {
+        background-color: black;
+        border: solid 2px antiquewhite;
+        margin-top: 0;
+        border-radius: 10px;
+        ul li {
+            margin-right: 5 !important;
+        }
+        ul li button {
+            float: right;
+        }
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    ul {
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #navbarNav {
+        background-color: black;
+        border: solid 2px antiquewhite;
+        margin-top: 0;
+        border-radius: 10px;
+        ul li {
+            margin-right: 5 !important;
+        }
+        ul li button {
+            float: right;
+        }
+    }
+    #header {
+        font-family: 'Helvetica Neue';
+        color: orange;
+        font-size: 18px;
+    }
+    .header {
+        font-size: 25px;
+    }
+}
+
+#navbarNav {
+    ul li {
+        margin: 5px;
+    }
+}
+
+span {
+    display: flex;
+}
+
+#header {
+    font-family: 'Helvetica Neue';
+    color: orange;
+    margin-left: 1%;
+}
+
+#header-two {
+    margin-top: 8%;
+    margin-bottom: -10px;
+}
+
+#logo {
+    margin-left: 5%;
+    max-height: 70px;
+    padding-top: 10px;
+    margin: 1%;
+}
+
+hr {
+    margin: 0;
+    background-color: orangered;
+    height: 1px;
+    opacity: 0.5;
+}
+
+i.fa {
+    margin-right: 5px;
+}
+
+button.btn-outline-secondary {
+    color: white;
+}
+
+#logo-div:hover {
+    cursor: pointer;
+}

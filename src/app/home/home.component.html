@@ -1,0 +1,139 @@
+<div id="container-fluid-top" class="container-fluid-wrap">
+</div>
+<div class="container-fluid">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/3263133c-7102-4857-a0a0-2d1b1636ecf3.JPG" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Thrilling Activities</h5>
+              <div class="card-footer">
+                <nav>
+                  <a class="btn btn-primary" routerLink="/thrilling-activities">View Activities</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/c501f599-a0f3-40a9-8ed1-e6fef2e63eb7.JPG" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Gallery</h5>
+              <div class="card-footer">
+                <nav>
+                  <a class="btn btn-primary" routerLink="/gallery">View Photos</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/image1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Accomodation</h5>
+              <div class="card-footer">
+                <nav>
+                  <a id="view-details" class="btn btn-primary" (click)="accomodation.launchAccomodationModal()">View Details</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/packages.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Packages</h5>
+              <div class="card-footer">
+                <nav>
+                  <a id="view-details" class="btn btn-primary" (click)="packages.launchPackagesModal()">View Details</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/climate.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Climate</h5>
+              <div class="card-footer">
+                <nav>
+                  <a id="view-details" class="btn btn-primary" (click)="climate.launchClimateModal()">View Details</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/locate-us.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">How To Reach Us</h5>
+              <div class="card-footer">
+                <nav>
+                  <a class="btn btn-primary" routerLink="/reach-us">View Details</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<section id="home-text" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">
+      <h2 id="welcome-header">Welcome to Hornbill Homestay.</h2>
+      <p id="caption"> -Relax-Refresh-Rejuvenate.</p>
+    </li>
+    <li>
+      <p>Hornbill Homestay is a perfect tourist place for travelers seeking a peaceful holiday trip with an environment, free
+        from the distraction of daily business life.
+      </p>
+      <p>Hornbill Homestay is an intimate, secluded luxurious homestay located in the middle of a dense rain forest.
+      </p>
+      <p>Set in the lap of Western Ghats, Hornbill Homestay provides a dream wildlife vacation to its guest while being pampered
+        with all the Modern facilities imaginable.
+      </p>
+    </li>
+  </ol>
+</section>
+<nav id="breadcrumb" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">
+      <img src="./assets/img/tiger-homepage.jpg" alt="Fjords" style="width:100%">
+    </li>
+  </ol>
+</nav>
+<nav id="breadcrumb" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">
+      <img src="./assets/img/doodhsagar-homepage.jpeg" alt="Fjords" style="width:100%">
+    </li>
+  </ol>
+</nav>
+<nav id="breadcrumb" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">
+      <img src="./assets/img/bison-homestay.jpg" alt="Fjords" style="width:100%">
+    </li>
+  </ol>
+</nav>
+<nav id="breadcrumb" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">
+      <img src="./assets/img/homestay.JPG" alt="Fjords" style="width:100%">
+    </li>
+  </ol>
+</nav>
+<app-accomodation #accomodation></app-accomodation>
+<app-climate #climate></app-climate>
+<app-packages #packages></app-packages>
